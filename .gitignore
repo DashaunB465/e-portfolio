@@ -9,6 +9,16 @@
 *.user
 *.userosscache
 *.sln.docstates
+# VS Code settings
+.vscode/
+
+# VS Code error logs
+*.code-workspace
+*.log
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
