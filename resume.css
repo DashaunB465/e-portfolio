@@ -101,13 +101,6 @@ nav ul {
   transition: transform 0.3s ease-in-out;
 }
 
-.cardalt {
-  background-color: #fff5e0 !important;
-  border-radius: 8px;
-  padding: 15px;
-  margin: 0;
-}
-
 .card-details {
   font-size: 1.2em;
   color: #000000;
