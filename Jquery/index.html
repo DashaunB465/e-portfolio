@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weekly Sales</title>
+    <link rel="stylesheet" href="weeklysales.css">
+</head>
+
+<body>
+    <main>
+        <h1>Weekly Sales</h1>
+        <div id="output"></div>
+        <div>
+            <label>Weekday:</label>
+            <select name="sales" id="sales">
+                <option value="x">Choose a week day</option>
+                <option value="0">Sunday</option>
+                <option value="1">Monday</option>
+                <option value="2">Tuesday</option>
+                <option value="3">Wednesday</option>
+                <option value="4">Thursday</option>
+                <option value="5">Friday</option>
+                <option value="6">Saturday</option>
+            </select>
+            <span>*</span>
+        </div>
+        <div>
+            <label for="amount">Sales amount:</label>
+            <input type="text" name="amount" id="amount" value="5000">
+        </div>
+        <div>
+            <input type="button" id="update" value="Update">
+            <input type="button" id="clear" value="Clear">
+        </div>
+        <div class="clear"></div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="weeklysales.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dragon Ball Z</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="template.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Dragon Ball Survey</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="/index.html">Portfolio Main</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html">Movies and more</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </nav>
+        <br>
+        <h2>Give us your feed back.</h2><br>
+        <form method="get">
+            First Name: <input type="text" name="First Name" id=" first">
+            <br><br>
+            Last Name: <input type="text" name="Last Name" id="last">
+            <br><br>
+            Age: <input type="text" name="Age" id="age">
+            <br><br>
+            E-mail: <input type="text" name="E-mail" id="email">
+            <br><br>
+            Reference: <input type="text" name="reference" id="ref">
+            <br><br>
+            <fieldset>
+                <legend>Select Your Favorite Hero(s) Charater:</legend>
+                <input type="checkbox" name="Goku" id="main"> Goku
+                <br>
+                <input type="checkbox" name="Vegeta" id="sc1"> Vegeta
+                <br>
+                <input type="checkbox" name="Gohan" id="sc2"> Gohan
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Select how often you watch Television:</legend>
+                <input type="radio" name="daily"> Everyday<br>
+                <input type="radio" name="Weekly"> 3-4 times a week<br>
+                <input type="radio" name="none"> Never<br>
+                <br>
+            </fieldset>
+            <br>
+            <legend>Select the locations you watch Television:</legend>
+            <select size="3" name="dropbox" id="dropbox">
+                <option value="At home">At home</option>
+                <option value="In the car">In the car</option>
+                <option value="At work">At work</option>
+                <option value="Anywhere">Anywhere</option>
+            </select>
+            <br><br>
+            <legend>What is your favorite DBZ Arc? if your not a fan, tell us why.</legend>
+            <textarea name="comments" id="comments" cols="60" rows="3"></textarea>
+            <br>
+            <input type="submit" value="submit"> <input type="reset" value="reset"><br>
+        </form>
+</body>
+</div>
+
+</html>
