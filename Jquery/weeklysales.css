@@ -1,39 +1,85 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin: 0 auto;
     width: 700px;
-    border: 3px solid blue;
+    border: 3px solid rgb(0, 0, 0);
     padding: 0 2em 1em;
 }
-h1, h3 {
-    color: blue;
+
+h1,
+h3 {
+    color: rgb(0, 0, 0);
 }
+
 div {
     margin-bottom: 1em;
 }
+
 label {
     display: inline-block;
     width: 7em;
     text-align: right
 }
+
 input {
     margin-right: 0.5em;
 }
+
 span {
     color: red;
 }
+
 #output {
-    float: right; 
+    float: right;
     width: 20em;
     margin: 0 0 .5em;
     padding: 1em;
-    border: 2px solid blue;
+    border: 2px solid rgb(0, 0, 0);
     min-height: 10em;
 }
-#tasks a { 
-    margin-right: 0.5em; 
+
+#tasks a {
+    margin-right: 0.5em;
 }
-.clear { 
-    clear: both; 
+
+.clear {
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 30px;
+        font-size: 1rem;
+    }
+
+    h1,
+    h3 {
+        font-size: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    #output {
+        float: none;
+        width: 100%;
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        padding: 60px;
+        font-size: 1.1rem;
+    }
+
+    h1,
+    h3 {
+        font-size: 2rem;
+    }
+
+    #output {
+        float: none;
+        width: 100%;
+        margin-top: 1em;
+    }
 }
